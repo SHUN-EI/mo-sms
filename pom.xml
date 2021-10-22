@@ -38,6 +38,7 @@
         <springfox.boot.starter.version>3.0.0</springfox.boot.starter.version>
         <mysql-connector.version>8.0.15</mysql-connector.version>
         <mybatisplus.boot.starter.version>3.4.0</mybatisplus.boot.starter.version>
+        <hutool.version>5.1.0</hutool.version>
 
         <!--跳过单元测试-->
         <skipTests>true</skipTests>
@@ -113,6 +114,12 @@
                 <groupId>com.mo</groupId>
                 <artifactId>mo-sms-entity</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
             </dependency>
 
         </dependencies>
